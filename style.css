@@ -1,1 +1,80 @@
-ggg
+* {
+    box-sizing: border-box;
+  }
+html {
+  scroll-behavior: smooth; 
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color:#000;
+  background-color:#ffe8ed;
+  margin: 0;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+header {
+  background-color:#fa7d7d;
+}
+.center-img {
+    display: block;
+    margin: 100px 50px 100px 50px;
+  }
+.nav-list{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  }
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration:none;
+  transition: color 0.3s;
+  color:#000;
+}
+
+.nav-link:hover {
+  color: #84e3b5;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.my_photo {
+    max-height: 300px;
+    max-width: 100%;
+    width: auto;
+    }
+.section {
+  width: 100%;
+  border: 1px solid red;
+  text-decoration:none;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+ul {
+  list-style: none;
+}
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#ff73be;
+}
